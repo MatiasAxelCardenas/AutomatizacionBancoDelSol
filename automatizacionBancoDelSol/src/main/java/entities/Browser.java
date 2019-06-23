@@ -100,7 +100,7 @@ public class Browser {
 
 	/**
 	 * Cierra el driver utilizado y termina con cualquier instancia que pudiera
-	 * haber quedado ejecut�ndose
+	 * haber quedado ejecutandose
 	 * 
 	 */
 	public static void finish() {
@@ -111,7 +111,7 @@ public class Browser {
 	}
 
 	/**
-	 * Obtiene una lista completa con todos los procesos que se est�n ejecutando
+	 * Obtiene una lista completa con todos los procesos que se estan ejecutando
 	 * actualmente y termina con todos los que correspondan al driver de chrome
 	 * 
 	 */
@@ -134,7 +134,7 @@ public class Browser {
 	}
 
 	/**
-	 * Genera una espera impl�cita de sec segundos
+	 * Genera una espera implicita de sec segundos
 	 * 
 	 * @param sec segundos que esperar� el driver
 	 * 
@@ -177,7 +177,7 @@ public class Browser {
 	}
 
 	/**
-	 * Espera a que el elemento pasado por par�metro se encuentre visible,
+	 * Espera a que el elemento pasado por parametro se encuentre visible,
 	 * utilizando wait until y expected conditions
 	 * 
 	 * @param metodoBusqueda Metodo de busqueda deseado para hallar el elemento
@@ -201,7 +201,7 @@ public class Browser {
 
 
 	/**
-	 * Funci�n interna para facilitar la utilizaci�n de WebDriverWait
+	 * Funci�n interna para facilitar la utilizacion de WebDriverWait
 	 * 
 	 * @param driver  driver
 	 * @param seconds segundos a esperar
@@ -212,7 +212,7 @@ public class Browser {
 	}
 
 	/**
-	 * Retorna el manejador de la ventana/pesta�a actual
+	 * Retorna el manejador de la ventana/pestaña actual
 	 * 
 	 * @return una string con el manejador de la ventana
 	 * 
@@ -222,7 +222,7 @@ public class Browser {
 	}
 
 	/**
-	 * Retorna una lista con todos los manejadores de todas las ventanas/pesta�as
+	 * Retorna una lista con todos los manejadores de todas las ventanas/pestañas
 	 * 
 	 * @return Lista con todos los manejadores
 	 * 
@@ -234,7 +234,7 @@ public class Browser {
 	/**
 	 * Setea el atributo Visibility de un elemento en 'visible'
 	 * 
-	 * @param searchMethod M�todo de b�squeda @see
+	 * @param searchMethod M�todo de busqueda @see
 	 *                     {@link Utilities#findElementByType(WebDriver, String, String)}
 	 * @param value        Valor de b�squeda
 	 * 
@@ -255,7 +255,7 @@ public class Browser {
 	 * 
 	 * @param searchMethod M�todo de b�squeda @see
 	 *                     {@link Utilities#findElementByType(WebDriver, String, String)}
-	 * @param value        Valor de b�squeda
+	 * @param value        Valor de busqueda
 	 * @return Retorna el elemento
 	 * 
 	 */
@@ -274,9 +274,9 @@ public class Browser {
 	/**
 	 * Busca un elemento sin espera
 	 * 
-	 * @param searchMethod M�todo de b�squeda @see
+	 * @param searchMethod M�todo de busqueda @see
 	 *                     {@link Utilities#findElementByType(WebDriver, String, String)}
-	 * @param value        Valor de b�squeda
+	 * @param value        Valor de busqueda
 	 * @return Retorna el elemento
 	 * 
 	 */
@@ -293,9 +293,9 @@ public class Browser {
 	/**
 	 * Busca todos los elementos coincidentes, con espera
 	 * 
-	 * @param searchMethod M�todo de b�squeda @see
+	 * @param searchMethod M�todo de busqueda @see
 	 *                     {@link Utilities#findElementByType(WebDriver, String, String)}
-	 * @param value        Valor de b�squeda
+	 * @param value        Valor de busqueda
 	 * @return Retorna una lista con los elementos
 	 * 
 	 */
@@ -314,9 +314,9 @@ public class Browser {
 	/**
 	 * Busca todos los elementos coincidentes, sin espera
 	 * 
-	 * @param searchMethod M�todo de b�squeda @see
+	 * @param searchMethod Metodo de busqueda @see
 	 *                     {@link Utilities#findElementByType(WebDriver, String, String)}
-	 * @param value        Valor de b�squeda
+	 * @param value        Valor de busqueda
 	 * @return Retorna una lista con los elementos
 	 * 
 	 */
@@ -333,8 +333,8 @@ public class Browser {
 	/**
 	 * realiza un doble click sobre el elemento enviado
 	 * 
-	 * @param element Elemento sobre el cual se har� doble click
-	 * @throws InstantiationException Al fallar la instanciaci�n de la clase
+	 * @param element Elemento sobre el cual se hara doble click
+	 * @throws InstantiationException Al fallar la instanciacion de la clase
 	 *                                Keyboard
 	 * @throws IllegalAccessException Al no poder acceder a la instancia de Keyboard
 	 * 
@@ -385,7 +385,7 @@ public class Browser {
 	}
 
 	/**
-	 * Simula la acci�n del mouse over sobre un elemento
+	 * Simula la accion del mouse over sobre un elemento
 	 * 
 	 * @param element Elemento sobre el cual se simular� el mouse over
 	 * 
@@ -410,7 +410,7 @@ public class Browser {
 	/**
 	 * Navega hacia la URL especificada
 	 * 
-	 * @param url Direcci�n del sitio web al cual se desea navegar
+	 * @param url Direccion del sitio web al cual se desea navegar
 	 */
 	public static void travelTo(String url) {
 		try {
@@ -434,7 +434,7 @@ public class Browser {
 	}
 
 	/**
-	 * Ejecuta un script para comprobar si se termin� de cargar la p�gina. En caso
+	 * Ejecuta un script para comprobar si se termin� de cargar la pagina. En caso
 	 * de falla, espera y vuelve a ejecutarlo luego de 1 segundo
 	 * 
 	 * @throws Exception En caso de falla en la ejecuci�n del script
